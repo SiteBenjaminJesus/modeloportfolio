@@ -1,0 +1,4 @@
+"use client"
+import { useState } from "react"
+export function SiteNav(){const[open,setOpen]=useState(false);return(<header className="fixed top-0 left-0 w-full z-50 bg-black border-b border-zinc-800 h-14"><div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between"><span className="text-white font-black text-sm tracking-widest">BENJAMIN<span className="text-red-600">.</span></span><nav className="hidden md:flex gap-6 text-xs text-zinc-400"><a href="/#sobre">SOBRE</a><a href="/fotos">FOTOS</a></nav><button onClick={()=>setOpen(!open)} className="md:hidden text-white border border-white/20 px-3 py-1 text-xs">{open?"FECHAR":"MENU"}</button></div>{open&&<div className="bg-black border-t border-zinc-800 p-6 flex flex-col gap-4"><a href="/#sobre" onClick={()=>setOpen(false)}>SOBRE</a><a href="/fotos" onClick={()=>setOpen(false)}>FOTOS</a></div>}</header>)}
+export default SiteNav
