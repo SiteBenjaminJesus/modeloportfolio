@@ -31,18 +31,18 @@ export function Contact() {
 
             <div className="mt-10 space-y-5">
               <a
-                href="mailto:barbosanadir25@gmail.com"
+                href="mailto:grinch@gmail.com"
                 className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
               >
                 <Mail className="h-5 w-5 text-accent" />
-                barbosanadir25@gmail.com
+                grinch@gmail.com
               </a>
               <a
-                href="tel:+551195866-4804"
+                href="tel:+5511999999999"
                 className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
               >
                 <Phone className="h-5 w-5 text-accent" />
-                +55 11 95866-4804
+                +55 11 99999-9999
               </a>
               <a
                 href="https://instagram.com"
@@ -51,7 +51,7 @@ export function Contact() {
                 className="flex items-center gap-4 text-muted-foreground transition-colors hover:text-foreground"
               >
                 <AtSign className="h-5 w-5 text-accent" />
-                @benjamin.jsb
+                @grinch
               </a>
             </div>
           </div>
