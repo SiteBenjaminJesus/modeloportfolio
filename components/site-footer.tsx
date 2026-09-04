@@ -6,7 +6,7 @@ export function SiteFooter() {
           BENJAMIN<span className="text-accent">.</span>
         </a>
         <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground">
-          © {new Date().getFullYear()} Benjamin Jesus · Todos os direitos reservados
+          © {new Date().getFullYear()} Benjamin Jesus · Todos os direitos reservados - Site desenvolvido por www.clickkidsmodel.com (11)96515-5173
         </p>
         <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground">
            Mogi das Cruzes · SP
