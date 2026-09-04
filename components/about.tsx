@@ -7,7 +7,7 @@ export function About() {
         <div className="relative aspect-[4/5] overflow-hidden">
           <Image
             src="/images/about.png"
-            alt="Benjamin"
+            alt="Grinch"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"
@@ -19,11 +19,11 @@ export function About() {
             Sobre
           </p>
           <h2 className="font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-balance lg:text-6xl">
-            Benjamin
+            Grinch
           </h2>
           <div className="mt-8 space-y-5 leading-relaxed text-muted-foreground">
             <p>
-              Sou Benjamin Jesus, ator e modelo com mais de quatro anos de carreira entre
+              Sou Grinch , ator e modelo com mais de quatro anos de carreira entre
               passarelas, sets e produções editoriais e audiovisuais.  Meu trabalho é transformar energia e carisma em cena, com naturalidade, expressão e profissionalismo diante das câmeras.
             </p>
             <p>
